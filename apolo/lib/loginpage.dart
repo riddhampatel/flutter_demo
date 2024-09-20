@@ -14,6 +14,9 @@ class _LoginpageState extends State<Loginpage> {
       appBar: AppBar(
         title: const Text("login page"),
         backgroundColor: Colors.blue,
+        titleTextStyle: TextStyle(
+         colour: Colours.white,
+       ),
       ),
        body: Padding(
         padding: const EdgeInsets.all(16.0),
